@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALTA DE CONTACTOS"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginTop="24dp" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresá tu nombre"
+            android:inputType="textPersonName" />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APELLIDO"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresá tu apellido"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TELÉFONO"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresá tu teléfono"
+            android:inputType="phone" />
+
+        <Spinner
+            android:id="@+id/spinnerTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+         />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EMAIL"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresá tu correo electrónico"
+            android:inputType="textEmailAddress" />
+
+        <Spinner
+            android:id="@+id/spinnerEmail"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dirección"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresá tu dirección"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha de nacimiento"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etFechaNacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DD/MM/AAAA"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/btnContinuar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTINUAR"
+            android:layout_marginTop="24dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
